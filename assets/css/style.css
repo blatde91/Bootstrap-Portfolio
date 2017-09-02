@@ -49,11 +49,14 @@ h2 {
 	border: 1px solid grey;
 }
 
+.panel-body {
+	margin-top: -20px;
+}
+
 .navbar-default .navbar-brand {
     color: #fff; 
 
 }
-
 
 .navbar-brand {
 	width: 250px;
@@ -69,14 +72,12 @@ h2 {
 	padding: 0;
 }
 
-@media (min-width: 768px) {
-	.navbar-nav {
-   		padding-top: 20px;
-}
+.portfolio img {
+	margin: 10px auto;
 }
 
-img {
-	margin: 10px auto;
+.portfolio .row {
+	margin-top: 10px;
 }
 
 #bio-image {
@@ -87,12 +88,31 @@ img {
 	margin-right: 25px;
 }
 
-
-
 .main,
 .side {
 	margin-bottom: 50px;
 	margin-top: 120px;
+}
+
+.sidebody img {
+	margin-right: 20px;
+}
+
+#stackoverflow-img {
+	margin-right: 0;
+}
+
+label {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  	font-size: 18px;
+  	line-height: 34px;
+  	font-weight: normal;
+}
+
+.btn-default {
+    color: white;
+    background-color: #4aaaa5;
+    border-color: #ccc;
 }
 
 .footer {
@@ -103,4 +123,10 @@ img {
 	text-align: center;
 	color: white;
 	bottom: 0;
+}
+
+@media (min-width: 768px) {
+	.navbar-nav {
+   		padding-top: 20px;
+}
 }
